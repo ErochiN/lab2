@@ -5,13 +5,17 @@ int main()
 {
 	setlocale(LC_CTYPE, "RUS");
 
-	int N = 7, K = 50;
+	int n = 3, L = 333;
+	int	k = 3, m = 3;
 
-	printf("Сейчас %d часов %d минут 00 секунд\n", N, K);
-	printf("Идет %d минута суток\n", K);
-	printf("До полуночи осталось %d часов и %d минут\n", N, K);
-	printf("С 8.00 прошло %d секунд\n", K * 60);
-	printf("Текущий час  = %f суток  и текущая минута = %f часа\n", (double)N / 24, (double)K / 60);
+	printf("Дано:\n");
+	printf("\t%d\n", n);
+	printf("\t%d\n", L);
+	printf("       ------\n");
+
+	printf("Oтвет:\n");
+	printf("\t%.*d", k, (n / L));
+	printf(".%.*d", m, (n % L));
 
 	return 0;
 }
