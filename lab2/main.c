@@ -13,7 +13,7 @@ int main()
 	printf("       ------\n");
 
 	printf("Oтвет:\n");
-	printf("%07.3f", (n / 333.));
+	printf("%+08.3f", (n / 333.));
 
 	return 0;
 }
