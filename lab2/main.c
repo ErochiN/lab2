@@ -10,7 +10,7 @@ int main()
 
 	printf("1\n\t2\n\t\t3\n \n");
 
-	printf("%1d %3d %5d %7d \n \n", 1, 2, 3, 4);
+	printf("%d %125d %125d %125d \n \n", 1, 2, 3, 4);
 
 	printf("%10.3f\n \n", 12.234657);
 
