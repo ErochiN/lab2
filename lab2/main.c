@@ -5,7 +5,7 @@ int main()
 {
 	setlocale(LC_CTYPE, "RUS");
 
-	int N = 7, K = 50;
+	int N = 10, K = 50;
 
 	printf("Сейчас %d часов %d минут 00 секунд\n", N, K);
 	printf("Идет %d минута суток\n", K);
